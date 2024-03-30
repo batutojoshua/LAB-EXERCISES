@@ -32,7 +32,7 @@
             </div>
             <div class="input-group mb-3">
               <span class="input-group-text"><i class="fa fa-user"></i></span>
-              <input type="text" class="form-control" id="password" name="password" placeholder="Password:" required>
+              <input type="password" class="form-control" id="password" name="password" placeholder="Password:" required>
             </div>
             <div class="input-group mb-3">
               <span class="input-group-text"><i class="fa fa-user"></i></span>
@@ -40,7 +40,7 @@
             </div>
             <div class="input-group mb-3">
               <span class="input-group-text"><i class="fa fa-user"></i></span>
-              <input type="password" class="form-control" id="status" name="status" placeholder="Status:" required>
+              <input type="text" class="form-control" id="status" name="status" placeholder="Status:" required>
             </div>
             <div class="form-check">
               <input class="form-check-input" type="checkbox" value="" id="termsCheckbox">
