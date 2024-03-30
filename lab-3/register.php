@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +12,22 @@
       <div class="row mt-5">
         <div class="col-lg-4 bg-white m-auto rounded-top wrapper shadow p-100">
           <h2 class="text-center pt-3">Signup Now</h2>
+
+          <!-- Display error message if it exists -->
+          <?php if(isset($_GET['error'])): ?>
+            <div class="alert alert-danger" role="alert">
+              <?php echo $_GET['error']; ?>
+            </div>
+          <?php endif; ?>
+
+          <!-- Display success message if it exists -->
+          <?php if(isset($_GET['success'])): ?>
+            <div class="alert alert-success" role="alert">
+              <?php echo $_GET['success']; ?>
+            </div>
+          <?php endif; ?>
+
+          <!-- Signup form -->
           <form class="form-signup" action="mailer.php" method="post">
             <div class="input-group mb-3 pt-3">
               <span class="input-group-text"><i class="fa fa-user"></i></span>
